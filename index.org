@@ -1,0 +1,48 @@
+#+TITLE: Severin Gsponer
+#+OPTIONS: num:nil whn:2 toc:2 H:6
+* Contact
+Severin Gsponer\\
+severin.gsponer@insight-centre.org
+* Viva
+Since 2015 Severin Gsponer is a PhD student at the Insight Centre for Data Analytics at the University College Dublin, Ireland. He holds a MSc(2014) and a BSc(2012) in Computer Science from the University of Basel, Switzerland. 
+His main research interest is machine learning and optimization. His current project focuses on analyzing different loss functions and convex optimization strategies, on a range of sequence data with different characteristics (i.e. length, alphabet size, motif length). Thereby, he’s especially interested in the scalability, accuracy and interpretability of the produced models. To achieve this goal in a structured and reproducible way, he is developing a simulation framework. Additionally, he is extending the current classification framework to work on sequence regression problems.
+Severin Gsponer is also interested in a variety of other Computer Science related topics like: recurrent neural networks, feature selection, feature learning, multitask learning, bioinformatics, repoducibility in research and exascale computing.
+
+* Research Interests
+- Machine learning
+- Optimization
+- Bioinformatics
+- Recurrent neural networks
+- Reproducibility in research
+
+* Teaching
+** Teaching assistant / Tutor
+- Object-Oriented Programming (COMP30070) WS 2016
+- Software Engineering (COMP30670) SS 2016
+- Computer Programming I (COMP10110) WS 2015
+- Introduction to Java (COMP20250) WS 2015
+- Programming I (Python) (COMP10280) WS 2015
+
+* Publications
+
+* Smart Pointers
+** Podcasts
+*** English podcasts
+- *Linear Digressions* - Regular podcast by Ben Jaffe and Katie Malone about various topics in Machine learning (http://lineardigressions.com/)
+- *Data Sceptic* - Podcast about Kyle and Linh Da features longer interviews with active data scientists as well as episodes that introduces basic principles of Data Science (http://dataskeptic.com/)
+- *Talking Machines* - Katherine Gorman and Ryan Adam talk about topics in Machine learning and present interesting interviews with researches and experts in the field. (http://www.thetalkingmachines.com/about)
+*** German podcasts
+- *Methodisch inkorrekt* - Nicolas Wöhrl and Reinhard Remfort present forth nightly four papers from fields of science in a entertaining and informative way
+
+
+** Newsletter
+These newsletter provide a good overview over the mass of article and news in the field of ML and AI:
+- *ML Weekly* - Gathering of ML related Twitter, Facebook, Google+, and LinkedIn posts. (http://scottge.net/tag/machine-learning-weekly/)
+- *AI Weekly* - Similar to ML Weekly but for the field of AI. (http://aiweekly.co/)
+- *Data Elixir* - Curated news and resources about data science (http://dataelixir.com/)
+- *Import AI* - A newsletter about artificial intelligence (http://aiweekly.co/)
+ 
+I follow these mailing lists to keep get recent announcements and CfP. They are more oriented at researchers and people working in academia.
+- *Connectionists* - Mailing list for discussion about neural networks and cognitive or computational neuroscience (https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists) 
+- *ML-News* - Google group for announcements and CfP for the machine learning community (https://groups.google.com/forum/#!forum/ml-news)
+- *UAI* - Mailing list for uncertainty in artificial intelligence (https://secure.engr.oregonstate.edu/mailman/listinfo/uai)
