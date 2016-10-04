@@ -35,7 +35,7 @@ Severin Gsponer is also interested in a variety of other Computer Science relate
 - *Methodisch inkorrekt* - Nicolas Wöhrl and Reinhard Remfort present forth nightly four papers from fields of science in a entertaining and informative way
 
 
-** Newsletter
+** Newsletters
 These newsletter provide a good overview over the mass of article and news in the field of ML and AI:
 - *ML Weekly* - Gathering of ML related Twitter, Facebook, Google+, and LinkedIn posts. (http://scottge.net/tag/machine-learning-weekly/)
 - *AI Weekly* - Similar to ML Weekly but for the field of AI. (http://aiweekly.co/)
