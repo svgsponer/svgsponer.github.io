@@ -1,351 +1,203 @@
 <!doctype html>
 <html lang="en">
-<head>
-<title>Severin Gsponer</title>
-<!-- 2016-10-04 Tue 14:42 -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Org-mode">
-<meta name="author" content="Severin Gsponer">
+    <head>
+        <title>Severin Gsponer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Severin Gsponer">
 
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<style type="text/css">
-/* org mode styles on top of twbs */
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+         $(function() {
+             'use strict';
 
-html {
-    position: relative;
-    min-height: 100%;
-}
+             $('.bs-docs-sidebar li').first().addClass('active');
 
-body {
-    font-size: 18px;
-    margin-bottom: 105px;
-}
+             $(document.body).scrollspy({target: '.bs-docs-sidebar'});
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 101px;
-    background-color: #f5f5f5;
-}
+             $('.bs-docs-sidebar').affix();
+         });
+        </script>
+    </head>
+    <body>
+        <div id="content" class="container">
+            <div class="row"><div class="col-md-9"><h1 class="title">Severin Gsponer</h1>
+                <div id="outline-container-sec-1" class="outline-2">
+                    <h2 id="sec-1">Contact</h2>
+                    <div class="outline-text-2" id="text-1">
+                        <p>
+                            Severin Gsponer<br >
+                            severin.gsponer@insight-centre.org
+                        </p>
+                    </div>
+                </div>
+                <div id="outline-container-sec-2" class="outline-2">
+                    <h2 id="sec-2">Viva</h2>
+                    <div class="outline-text-2" id="text-2">
+                        <p>
+                            Since 2015 Severin Gsponer is a PhD student at the Insight Centre for Data Analytics at the
+                            University College Dublin, Ireland. He holds a MSc(2014) and a BSc(2012) in Computer
+                            Science.  <br> His current research focus is on sequence regression in particular the
+                            analysis of different loss functions and convex optimization strategies within the sequence
+                            learning framework <a href="https://github.com/heerme/seql-sequence-learner">SEQL</a>.
+                            Thereby, he’s especially interested in the scalability as well as interpretability of the produced
+                            models. Additionally he works on improvements of the feature selection strategies in huge
+                            feature spaces with structure, like n-gram spaces.  Severin Gsponer is also interested in a
+                            variety of other Computer Science related topics like: recurrent neural networks, feature
+                            learning, multitask learning, transfer learning, bioinformatics, repoducibility in research
+                            and exascale computing.
+                        </p>
+                    </div>
+                </div>
 
-footer > div {
-    padding: 10px;
-}
+                <div id="outline-container-sec-3" class="outline-2">
+                    <h2 id="sec-3">Main Research Interests</h2>
+                    <div class="outline-text-2" id="text-3">
+                        <ul class="org-ul">
+                            <li>Machine learning
+                            </li>
+                            <li>Optimization
+                            </li>
+                            <li>Sequence Learning
+                            </li>
+                            <li>Reproducibility in research
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-footer p {
-    margin: 0 0 5px;
-    text-align: center;
-    font-size: 16px;
-}
+                <div id="outline-container-sec-4" class="outline-2">
+                    <h2 id="sec-4">Teaching</h2>
+                    <div class="outline-text-2" id="text-4">
+                        <li>
+                            Introduction to Git for Master Students. <a href="slides/gitIntro.pdf">Slides</a> WS 2016 
+                        </li>
+                    </div>
+                    <div id="outline-container-sec-4-1" class="outline-3">
+                        <h3 id="sec-4-1">Teaching assistant / Tutor</h3>
+                        <div class="outline-text-3" id="text-4-1">
+                            <ul class="org-ul">
+                                <li>Object-Oriented Programming (COMP30070) WS 2016
+                                </li>
+                                <li>Software Engineering (COMP30670) SS 2016
+                                </li>
+                                <li>Computer Programming I (COMP10110) WS 2015
+                                </li>
+                                <li>Introduction to Java (COMP20250) WS 2015
+                                </li>
+                                <li>Programming I (Python) (COMP10280) WS 2015
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-#table-of-contents {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+                <div id="outline-container-sec-5" class="outline-2">
+                    <h2 id="sec-5">Publications</h2>
+                    <ul>
+                        <li><b>Reproducible Experiments in High-Performance Computing: Techniques and Stencil Compiler Benchmark Study</b>,
+                            <i>Presentation at Platform for Advanced Scientific Computing 2014 , ETH Zürich,</i>
+                            Helmar Burkhart, Severin Gsponer, Danilo Guerrera, and Antonio Maffia (University of Basel).
+                        </li>
+                        <li>
+                            <b>Reproducible Experiments in High-Performance Computing: Techniques and Stencil Compiler Benchmark Study</b>,
+                            <i>Workshop at 1st International Workshop on Reproducibility in Parallel Computing, Porto, Protugal,</i>
+                            Danilo Guerrera, Helmar Burkhart, Severin Gsponer, and Antonio Maffia (University of Basel).
+                    </ul>
+                </div>
 
-blockquote p {
-    font-size: 18px;
-}
-
-pre {
-    font-size: 16px;
-}
-
-.footpara {
-    display: inline-block;
-}
-
-figcaption {
-  font-size: 16px;
-  color: #666;
-  font-style: italic;
-  padding-bottom: 15px;
-}
-
-/* from twbs docs */
-
-.bs-docs-sidebar.affix {
-    position: static;
-}
-@media (min-width: 768px) {
-    .bs-docs-sidebar {
-        padding-left: 20px;
-    }
-}
-
-/* All levels of nav */
-.bs-docs-sidebar .nav > li > a {
-    display: block;
-    padding: 4px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #999;
-}
-.bs-docs-sidebar .nav > li > a:hover,
-.bs-docs-sidebar .nav > li > a:focus {
-    padding-left: 19px;
-    color: #A1283B;
-    text-decoration: none;
-    background-color: transparent;
-    border-left: 1px solid #A1283B;
-}
-.bs-docs-sidebar .nav > .active > a,
-.bs-docs-sidebar .nav > .active:hover > a,
-.bs-docs-sidebar .nav > .active:focus > a {
-    padding-left: 18px;
-    font-weight: bold;
-    color: #A1283B;
-    background-color: transparent;
-    border-left: 2px solid #A1283B;
-}
-
-/* Nav: second level (shown on .active) */
-.bs-docs-sidebar .nav .nav {
-    display: none; /* Hide by default, but at >768px, show it */
-    padding-bottom: 10px;
-}
-.bs-docs-sidebar .nav .nav > li > a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 30px;
-    font-size: 12px;
-    font-weight: normal;
-}
-.bs-docs-sidebar .nav .nav > li > a:hover,
-.bs-docs-sidebar .nav .nav > li > a:focus {
-    padding-left: 29px;
-}
-.bs-docs-sidebar .nav .nav > .active > a,
-.bs-docs-sidebar .nav .nav > .active:hover > a,
-.bs-docs-sidebar .nav .nav > .active:focus > a {
-    padding-left: 28px;
-    font-weight: 500;
-}
-
-/* Nav: third level (shown on .active) */
-.bs-docs-sidebar .nav .nav .nav {
-    padding-bottom: 10px;
-}
-.bs-docs-sidebar .nav .nav .nav > li > a {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 40px;
-    font-size: 12px;
-    font-weight: normal;
-}
-.bs-docs-sidebar .nav .nav .nav > li > a:hover,
-.bs-docs-sidebar .nav .nav .nav > li > a:focus {
-    padding-left: 39px;
-}
-.bs-docs-sidebar .nav .nav .nav > .active > a,
-.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
-.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
-    padding-left: 38px;
-    font-weight: 500;
-}
-
-/* Show and affix the side nav when space allows it */
-@media (min-width: 992px) {
-    .bs-docs-sidebar .nav > .active > ul {
-        display: block;
-    }
-    /* Widen the fixed sidebar */
-    .bs-docs-sidebar.affix,
-    .bs-docs-sidebar.affix-bottom {
-        width: 213px;
-    }
-    .bs-docs-sidebar.affix {
-        position: fixed; /* Undo the static from mobile first approach */
-        top: 20px;
-    }
-    .bs-docs-sidebar.affix-bottom {
-        position: absolute; /* Undo the static from mobile first approach */
-    }
-    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
-        margin-top: 0;
-        margin-bottom: 0
-    }
-}
-@media (min-width: 1200px) {
-    /* Widen the fixed sidebar again */
-    .bs-docs-sidebar.affix-bottom,
-    .bs-docs-sidebar.affix {
-        width: 263px;
-    }
-}
-</style>
-<script type="text/javascript">
-$(function() {
-    'use strict';
-
-    $('.bs-docs-sidebar li').first().addClass('active');
-
-    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
-
-    $('.bs-docs-sidebar').affix();
-});
-</script>
-</head>
-<body>
-<div id="content" class="container">
-<div class="row"><div class="col-md-9"><h1 class="title">Severin Gsponer</h1>
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Contact</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-Severin Gsponer<br >
-severin.gsponer@insight-centre.org
-</p>
-</div>
-</div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Viva</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-Since 2015 Severin Gsponer is a PhD student at the Insight Centre for Data Analytics at the University College Dublin, Ireland. He holds a MSc(2014) and a BSc(2012) in Computer Science from the University of Basel, Switzerland. 
-His main research interest is machine learning and optimization. His current project focuses on analyzing different loss functions and convex optimization strategies, on a range of sequence data with different characteristics (i.e. length, alphabet size, motif length). Thereby, he’s especially interested in the scalability, accuracy and interpretability of the produced models. To achieve this goal in a structured and reproducible way, he is developing a simulation framework. Additionally, he is extending the current classification framework to work on sequence regression problems.
-Severin Gsponer is also interested in a variety of other Computer Science related topics like: recurrent neural networks, feature selection, feature learning, multitask learning, bioinformatics, repoducibility in research and exascale computing.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Research Interests</h2>
-<div class="outline-text-2" id="text-3">
-<ul class="org-ul">
-<li>Machine learning
-</li>
-<li>Optimization
-</li>
-<li>Bioinformatics
-</li>
-<li>Recurrent neural networks
-</li>
-<li>Reproducibility in research
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4">Teaching</h2>
-<div class="outline-text-2" id="text-4">
-</div><div id="outline-container-sec-4-1" class="outline-3">
-<h3 id="sec-4-1">Teaching assistant / Tutor</h3>
-<div class="outline-text-3" id="text-4-1">
-<ul class="org-ul">
-<li>Object-Oriented Programming (COMP30070) WS 2016
-</li>
-<li>Software Engineering (COMP30670) SS 2016
-</li>
-<li>Computer Programming I (COMP10110) WS 2015
-</li>
-<li>Introduction to Java (COMP20250) WS 2015
-</li>
-<li>Programming I (Python) (COMP10280) WS 2015
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5">Publications</h2>
-</div>
-
-<div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6">Smart Pointers</h2>
-<div class="outline-text-2" id="text-6">
-</div><div id="outline-container-sec-6-1" class="outline-3">
-<h3 id="sec-6-1">Podcasts</h3>
-<div class="outline-text-3" id="text-6-1">
-</div><div id="outline-container-sec-6-1-1" class="outline-4">
-<h4 id="sec-6-1-1">English podcasts</h4>
-<div class="outline-text-4" id="text-6-1-1">
-<ul class="org-ul">
-<li><b>Linear Digressions</b> - Regular podcast by Ben Jaffe and Katie Malone about various topics in Machine learning (<a href="http://lineardigressions.com/">http://lineardigressions.com/</a>)
-</li>
-<li><b>Data Sceptic</b> - Podcast about Kyle and Linh Da features longer interviews with active data scientists as well as episodes that introduces basic principles of Data Science (<a href="http://dataskeptic.com/">http://dataskeptic.com/</a>)
-</li>
-<li><b>Talking Machines</b> - Katherine Gorman and Ryan Adam talk about topics in Machine learning and present interesting interviews with researches and experts in the field. (<a href="http://www.thetalkingmachines.com/about">http://www.thetalkingmachines.com/about</a>)
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-6-1-2" class="outline-4">
-<h4 id="sec-6-1-2">German podcasts</h4>
-<div class="outline-text-4" id="text-6-1-2">
-<ul class="org-ul">
-<li><b>Methodisch inkorrekt</b> - Nicolas Wöhrl and Reinhard Remfort present forth nightly four papers from fields of science in a entertaining and informative way
-</li>
-</ul>
-</div>
-</div>
-</div>
+                <div id="outline-container-sec-6" class="outline-2">
+                    <h2 id="sec-6">Smart Pointers</h2>
+                    <div class="outline-text-2" id="text-6">
+                    </div><div id="outline-container-sec-6-1" class="outline-3">
+                        <h3 id="sec-6-1">Podcasts</h3>
+                        <div class="outline-text-3" id="text-6-1">
+                        </div><div id="outline-container-sec-6-1-1" class="outline-4">
+                            <h4 id="sec-6-1-1">English podcasts</h4>
+                            <div class="outline-text-4" id="text-6-1-1">
+                                <ul class="org-ul">
+                                    <li><b>Linear Digressions</b> - Regular podcast by Ben Jaffe and Katie Malone about various topics in Machine learning (<a href="http://lineardigressions.com/">http://lineardigressions.com/</a>)
+                                    </li>
+                                    <li><b>Data Sceptic</b> - Podcast about Kyle and Linh Da features longer interviews with active data scientists as well as episodes that introduces basic principles of Data Science (<a href="http://dataskeptic.com/">http://dataskeptic.com/</a>)
+                                    </li>
+                                    <li><b>Talking Machines</b> - Katherine Gorman and Ryan Adam talk about topics in Machine learning and present interesting interviews with researches and experts in the field. (<a href="http://www.thetalkingmachines.com/about">http://www.thetalkingmachines.com/about</a>)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="outline-container-sec-6-1-2" class="outline-4">
+                            <h4 id="sec-6-1-2">German podcasts</h4>
+                            <div class="outline-text-4" id="text-6-1-2">
+                                <ul class="org-ul">
+                                    <li><b>Methodisch inkorrekt</b> - Nicolas Wöhrl and Reinhard Remfort present forth nightly four papers from fields of science in a entertaining and informative way
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
 
-<div id="outline-container-sec-6-2" class="outline-3">
-<h3 id="sec-6-2">Newsletters</h3>
-<div class="outline-text-3" id="text-6-2">
-<p>
-These newsletter provide a good overview over the mass of article and news in the field of ML and AI:
-</p>
-<ul class="org-ul">
-<li><b>ML Weekly</b> - Gathering of ML related Twitter, Facebook, Google+, and LinkedIn posts. (<a href="http://scottge.net/tag/machine-learning-weekly/">http://scottge.net/tag/machine-learning-weekly/</a>)
-</li>
-<li><b>AI Weekly</b> - Similar to ML Weekly but for the field of AI. (<a href="http://aiweekly.co/">http://aiweekly.co/</a>)
-</li>
-<li><b>Data Elixir</b> - Curated news and resources about data science (<a href="http://dataelixir.com/">http://dataelixir.com/</a>)
-</li>
-<li><b>Import AI</b> - A newsletter about artificial intelligence (<a href="http://aiweekly.co/">http://aiweekly.co/</a>)
-</li>
-</ul>
+                    <div id="outline-container-sec-6-2" class="outline-3">
+                        <h3 id="sec-6-2">Newsletters</h3>
+                        <div class="outline-text-3" id="text-6-2">
+                            <p>
+                                These newsletter provide a good overview over the mass of article and news in the field of ML and AI:
+                            </p>
+                            <ul class="org-ul">
+                                <li><b>ML Weekly</b> - Gathering of ML related Twitter, Facebook, Google+, and LinkedIn posts. (<a href="http://scottge.net/tag/machine-learning-weekly/">http://scottge.net/tag/machine-learning-weekly/</a>)
+                                </li>
+                                <li><b>AI Weekly</b> - Similar to ML Weekly but for the field of AI. (<a href="http://aiweekly.co/">http://aiweekly.co/</a>)
+                                </li>
+                                <li><b>Data Elixir</b> - Curated news and resources about data science (<a href="http://dataelixir.com/">http://dataelixir.com/</a>)
+                                </li>
+                                <li><b>Import AI</b> - A newsletter about artificial intelligence (<a href="http://aiweekly.co/">http://aiweekly.co/</a>)
+                                </li>
+                            </ul>
 
-<p>
-I follow these mailing lists to keep get recent announcements and CfP. They are more oriented at researchers and people working in academia.
-</p>
-<ul class="org-ul">
-<li><b>Connectionists</b> - Mailing list for discussion about neural networks and cognitive or computational neuroscience (<a href="https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists">https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists</a>) 
-</li>
-<li><b>ML-News</b> - Google group for announcements and CfP for the machine learning community (<a href="https://groups.google.com/forum/#!forum/ml-news">https://groups.google.com/forum/#!forum/ml-news</a>)
-</li>
-<li><b>UAI</b> - Mailing list for uncertainty in artificial intelligence (<a href="https://secure.engr.oregonstate.edu/mailman/listinfo/uai">https://secure.engr.oregonstate.edu/mailman/listinfo/uai</a>)
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="col-md-3"><nav id="table-of-contents">
-<div id="text-table-of-contents" class="bs-docs-sidebar">
-<ul class="nav">
-<li><a href="#sec-1">Contact</a></li>
-<li><a href="#sec-2">Viva</a></li>
-<li><a href="#sec-3">Research Interests</a></li>
-<li><a href="#sec-4">Teaching</a>
-<ul class="nav">
-<li><a href="#sec-4-1">Teaching assistant / Tutor</a></li>
-</ul>
-</li>
-<li><a href="#sec-5">Publications</a></li>
-<li><a href="#sec-6">Smart Pointers</a>
-<ul class="nav">
-<li><a href="#sec-6-1">Podcasts</a></li>
-<li><a href="#sec-6-2">Newsletters</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</nav>
-</div></div></div>
-<footer id="postamble" class="">
-<div><p class="author">Author: Severin Gsponer</p>
-<p class="date">Created: 2016-10-04 Tue 14:42</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org-mode</a> 8.2.10)</p>
-</div>
-</footer>
-</body>
+                            <p>
+                                I follow these mailing lists to keep get recent announcements and CfP. They are more oriented at researchers and people working in academia.
+                            </p>
+                            <ul class="org-ul">
+                                <li><b>Connectionists</b> - Mailing list for discussion about neural networks and cognitive or computational neuroscience (<a href="https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists">https://mailman.srv.cs.cmu.edu/mailman/listinfo/connectionists</a>) 
+                                </li>
+                                <li><b>ML-News</b> - Google group for announcements and CfP for the machine learning community (<a href="https://groups.google.com/forum/#!forum/ml-news">https://groups.google.com/forum/#!forum/ml-news</a>)
+                                </li>
+                                <li><b>UAI</b> - Mailing list for uncertainty in artificial intelligence (<a href="https://secure.engr.oregonstate.edu/mailman/listinfo/uai">https://secure.engr.oregonstate.edu/mailman/listinfo/uai</a>)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="col-md-3"><nav id="table-of-contents">
+                <div id="text-table-of-contents" class="bs-docs-sidebar">
+                    <ul class="nav">
+                        <li><a href="#sec-1">Contact</a></li>
+                        <li><a href="#sec-2">Viva</a></li>
+                        <li><a href="#sec-3">Research Interests</a></li>
+                        <li><a href="#sec-4">Teaching</a>
+                            <ul class="nav">
+                                <li><a href="#sec-4-1">Teaching assistant / Tutor</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#sec-5">Publications</a></li>
+                        <li><a href="#sec-6">Smart Pointers</a>
+                            <ul class="nav">
+                                <li><a href="#sec-6-1">Podcasts</a></li>
+                                <li><a href="#sec-6-2">Newsletters</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </div></div></div>
+            <footer id="postamble" class="">
+                <div>
+                    <p>Severin Gsponer</p>
+                    <p>severin.gsponer@insight-centre.org</p>
+                </div>
+            </footer>
+    </body>
 </html>
